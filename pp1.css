@@ -1,0 +1,228 @@
+@import url("./font/stylesheet.css");
+@import url("./font/di/stylesheet.css");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #191917;
+  color: #f8f8f4;
+  font-family: "Linotype Didot Std", "FF Good Pro Comp";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 60px;
+  margin-bottom: 100px;
+}
+.header .logo_n {
+  font-family: "Linotype Didot Std";
+  font-size: 50px;
+  display: flex;
+}
+.header .logo_ul {
+  list-style: none;
+  font-family: "Linotype Didot Std";
+  font-size: 30px;
+  display: flex;
+  gap: 40px;
+}
+
+.main1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+  position: relative;
+  box-sizing: border-box;
+}
+.main1 .main_img {
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  top: 300px;
+  z-index: -1;
+}
+.main1 .main_img img {
+  width: 800px;
+}
+.main1 .main_title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  line-height: 1;
+}
+.main1 .main_title .title_w {
+  z-index: -1;
+  font-size: 24vw;
+  margin-top: 600px;
+  z-index: -2;
+}
+.main1 .main_title .title_p {
+  font-size: 18vw;
+}
+.main1 .main_title .title_m {
+  font-size: 18vw;
+}
+.main1 .main_title .title_n {
+  font-size: 14vw;
+}
+.main1 .sub_title {
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+.main1 .sub_read {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.sub {
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  margin-top: 100px;
+  width: 100%;
+}
+.sub .sub_img img {
+  width: 500px;
+}
+.sub .sub_img2 img {
+  width: 500px;
+}
+
+.archive {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 60px;
+  align-items: center;
+  text-align: center;
+}
+.archive .ar_title {
+  font-size: 30px;
+}
+.archive .ar_read {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.ar_img1 {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+.ar_img1 img {
+  width: 400px;
+  height: 600px;
+}
+
+.ar_img2 {
+  background-color: #f8f8f4;
+  height: 956px;
+  margin-top: 425px;
+  z-index: -1;
+  display: flex;
+}
+.ar_img2 img {
+  width: 825px;
+  right: 0;
+}
+.ar_img2 .conc {
+  font-size: 420px;
+  color: #111111;
+  font-family: "FF Good Pro Comp";
+  font-style: normal;
+  line-height: 0.8;
+  margin-top: -200px;
+  overflow: hidden;
+}
+
+.main2 .main2_1 {
+  width: 400px;
+  height: 600px;
+  display: flex;
+}
+.main2 .main2_1 .main2_title .main2_sub1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+}
+.main2 .main2_1 .main2_title .main2_read1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+.main2 .main2_1 img {
+  width: 400px;
+  height: 600px;
+}
+
+.lab {
+  margin-top: 190px;
+  text-align: center;
+}
+.lab .lab_title {
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: 60px;
+}
+
+.lab_read {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.lab_img1 {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+.lab_img1 img {
+  width: 400px;
+  height: 600px;
+}
+
+.bv .bv_title {
+  margin-top: 200px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.bv .bv_read {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.bv .bv_item {
+  display: flex;
+  height: 435px;
+  padding-right: -60px;
+}
+.bv .bv_item .bv_img {
+  display: flex;
+}
+
+.main3 {
+  margin-top: 60px;
+}
+.main3 .main3_item {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+.main3 .main3_item .main3_img {
+  justify-content: flex-end;
+  z-index: -1;
+}
+.main3 .main3_item .main3_read {
+  font-size: 55px;
+  line-height: 70px;
+  text-align: right;
+}/*# sourceMappingURL=pp1.css.map */
